@@ -45,8 +45,20 @@ export default withMermaid({
         text: 'Angular',
         items: [
           { text: 'Allgemein', link: '/angular/index' },
-          { text: 'Fragen', link: '/angular/questions' }
-        ]
+          { text: 'Fragen - Allgemein', link: '/angular/questions' },
+          {
+            text: 'Fragen - Components',
+            link: '/angular/questions-components',
+          },
+          {
+            text: 'Fragen - Services',
+            link: '/angular/questions-services',
+          },
+          {
+            text: 'Fragen - Directives',
+            link: '/angular/questions-directives',
+          },
+        ],
       },
       {
         text: 'Vue',
