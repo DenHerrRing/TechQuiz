@@ -3,22 +3,37 @@
 layout: home
 
 hero:
-  name: "TechQuiz"
-  text: "Ein Fragenkatalog"
-  tagline: "zu verschiedenen TechStacks und Frameworks"
+  name: TechQuiz
+  text: Ein Fragenkatalog
+  tagline: zu verschiedenen TechStacks und Frameworks
+  actions:
+    - theme: brand
+      text: Software-Entwicklung
+      link: /software-development/general/
+    - theme: brand
+      text: JavaScript
+      link: /javascript/general/
+    - theme: brand
+      text: Java
+      link: /java/general/
 
 features:
-  - title: Allgemein
-    details: Grundlegende Softwareentwicklungs Prinzipien wie SOLID, Kiss und Dry
-  - title: JavaScript
-    details: Mit Spread-Syntax, Hoisting, Temporal Dead Zone, IIFE, Closures, Promises etc.
+  - title: Prinzipien
+    details: Grundlegende Softwareentwicklungs Prinzipien wie SOLID, KISS und DRY
+    link: /software-development/principles/
   - title: Angular
-    details: In Planung
-  - title: Vue
-    details: Mit Lifecycle, Conditonal Directives, Mutations, Events, Props, Slots, etc.
+    details: Im Aufbau
+    link: /javascript/angular/index
   - title: React
     details: Mit Flux, Redux, DOM, Props, Refs, Lifecycle, etc.
-  - title: Solid
+    link: /javascript/react/index
+  - title: Vue
+    details: Mit Lifecycle, Conditonal Directives, Mutations, Events, Props, Slots, etc.
+    link: /javascript/vue/index
+  - title: Spring Boot
     details: In Planung
+    link: /java/spring-boot/questions
+  - title: Java EE
+    details: In Planung
+    link: /java/java-ee/questions
 ---
-
