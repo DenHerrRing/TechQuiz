@@ -3,3 +3,6 @@
 ## Links
 
 - [Fragenkatalog auf GitHub](https://github.com/sudheerj/javascript-interview-questions)
+- [Angular](../angular/)
+- [Vue](../vue/)
+- [React](../react/)
