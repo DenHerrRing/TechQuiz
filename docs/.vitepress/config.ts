@@ -1,3 +1,4 @@
+import { DefaultTheme, UserConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
@@ -15,6 +16,9 @@ export default withMermaid({
     class: "mermaid my-class", // set additional css classes for parent container
   },
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
@@ -178,4 +182,4 @@ export default withMermaid({
       { icon: "github", link: "https://github.com/DenHerrRing/TechQuiz" },
     ],
   },
-});
+} as UserConfig<DefaultTheme.Config>);
