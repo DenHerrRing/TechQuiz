@@ -6,8 +6,10 @@ _Die Fragen zu Angular befinden sich im Aufbau_
 
 ## Links
 
-- [Fragenkatalog auf GitHub]()
-- [Allgemeine Fragen](./questions.md)
-- [Fragen zu Components](./questions-components.md)
-- [Fragen zu Services](./questions-services.md)
-- [Fragen zu Directives](./questions-directives.md)
+- [Fragen](./questions/)
+    - [Allgemeine Fragen](./questions/general.md)
+    - [Fragen zu Components](./questions/components.md)
+    - [Fragen zu Standalone Components](./questions/standalone.md)
+    - [Fragen zu Services](./questions/services.md)
+    - [Fragen zu Directives](./questions/directives.md)
+- [Coding Challenges](./coding/)

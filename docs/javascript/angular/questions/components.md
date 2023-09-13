@@ -1,4 +1,4 @@
-# Angular Fragen - Components
+# Angular - Fragen zu Components
 
 ## Interpolation in Templates?
 
