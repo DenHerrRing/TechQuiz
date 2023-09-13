@@ -1,3 +1,0 @@
-# Angular Fragen - Allgemein
-
-_Die Fragen befinden sich im Aufbau_
