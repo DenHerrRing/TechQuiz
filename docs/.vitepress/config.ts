@@ -67,8 +67,8 @@ export default withMermaid({
         {
           text: "JavaScript",
           items: [
-            { text: "Allgemein", link: "/javascript/" },
-            { text: "Fragen", link: "/javascript/questions" },
+            { text: "Allgemein", link: "/javascript/general/" },
+            { text: "Fragen", link: "/javascript/general/questions" },
           ],
         },
         {
